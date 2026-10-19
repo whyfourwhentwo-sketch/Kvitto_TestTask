@@ -19,10 +19,10 @@ class Tariff:
 
 
 TARIFFS: dict[TariffId, Tariff] = {
-    TariffId.BASIC: Tariff("Basic", 100_000),
-    TariffId.STANDARD: Tariff("Standard", 250_000),
-    TariffId.PREMIUM: Tariff("Premium", 500_000),
+    TariffId.BASIC: Tariff("Basic", 9900_00),
+    TariffId.STANDARD: Tariff("Standard", 19900_00),
+    TariffId.PREMIUM: Tariff("Premium", 29900_00),
 }
 
 # код в нижнем регистре -> скидка в процентах
-PROMO_CODES: dict[str, int] = {"sale10": 10}
+PROMO_CODES: dict[str, int] = {"kvitto10": 10}
